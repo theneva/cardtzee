@@ -8,6 +8,6 @@ public class Client
 {
     public static void main(String[] args)
     {
-        new Game(new String[] {"Jonas", "Kristine", });
+        new GameShell(new String[] {"Jonas", "Kristine", });
     }
 }

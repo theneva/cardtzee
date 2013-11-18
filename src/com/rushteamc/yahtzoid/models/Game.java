@@ -42,17 +42,5 @@ public class Game implements Serializable
         }
     }
 
-    public void saveGame()
-    {
-        try {
-            FileOutputStream fileOut = new FileOutputStream(new File("saved_state.dat"));
-            ObjectOutputStream out = new ObjectOutputStream(fileOut);
 
-            out.writeObject(this);
-
-            out.close();
-        } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-    }
 }
