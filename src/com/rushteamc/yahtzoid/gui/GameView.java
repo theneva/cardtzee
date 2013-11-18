@@ -1,4 +1,4 @@
-package com.rushteamc.yahtzoid.models.gui;
+package com.rushteamc.yahtzoid.gui;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
